@@ -1,0 +1,26 @@
+extends default
+
+block content
+  section.section
+    .container
+      h1.title User Details
+
+      table.table.is-bordered.is-striped.is-hoverable
+        thead
+          tr
+            th Field
+            th Value
+        tbody
+          tr
+            td Name
+            td= user.fullname
+          tr
+            td Email
+            td= user.email
+
+      h2.title Convert JSON to YAML
+      form#form(action="/convert" name="convert-form" method="POST")
+        .file.is-boxed
+          label.file-label
+            textarea.textarea.json-input(rows="10" cols="50" name="json" id="json-input")
+        button.button.is-primary(type="submit") Convert!
