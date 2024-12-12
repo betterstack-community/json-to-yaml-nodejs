@@ -1,11 +1,12 @@
-# Node.js JSON Converter
+# JSON to YAML Converter
 
-Learn how to instrument a distributed Node.js application to emit traces using OpenTelemetry.
+Learn how to instrument a distributed Node.js application to emit traces using
+OpenTelemetry.
 
 **Tutorial**:
 [Distributed Tracing in Node.js with OpenTelemetry (Beginner's Guide)](https://betterstack.com/community/guides/scaling-nodejs/opentelemetry-nodejs-tracing)
 
-![Node.js JSON Converter App](screenshot.png)
+![JSON to YAML Converter](screenshot.png)
 
 ## ⚖ License
 
