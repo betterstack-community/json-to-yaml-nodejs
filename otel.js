@@ -12,7 +12,6 @@ const sdk = new NodeSDK({
 				requestHook: (span, request) => {
 					span.updateName(`HTTP ${request.method} ${request.url}`);
 				},
-				applyCustomAttributesOnSpan,
 			},
 		}),
 	],
